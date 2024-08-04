@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo"> Shreyas <span>Mulay</span> </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="gradient-button">
+        <a href="#contact">Contact Us</a>
+      </button>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Shreyas</span></h1>
+        <h3>I'm a <span class="animated-text-container"><span class="text-animation"></span><span class="cursor">|</span></span></h3>
+        <p>
+          I have strong foundation in Full-Stack Web Development. I specialize
+          in Java-based solutions, seamlessly integrating front-end and back-end
+          technologies to deliver robust, scalable applications. My expertise
+          extends to database management, with proficient knowledge in MySQL and
+          MongoDB.
+        </p>
+
+        <div class="social-media">
+          <a href="https://github.com/MulayShreyas">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/mulayshreyas/">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a href="https://x.com/Mulay__Shreyas">
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/mulay.shreyas/">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+        </div>
+
+        <div class="button-group">
+          <a href="Resume.pdf" class="button"> Hire </a>
+          <a href="#contact" class="button"> Contact </a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="profile.jpeg" alt="profile photo" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="profile.jpeg" alt="about photo" />
+      </div>
+
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>
+          I am a Software Engineer with a strong foundation in Full-Stack Web
+          Development. I specialize in Java-based solutions, seamlessly
+          integrating front-end and back-end technologies to deliver robust,
+          scalable applications. My expertise extends to database management,
+          with proficient knowledge in MySQL and MongoDB.
+        </p>
+        <a href="https://www.linkedin.com/in/mulayshreyas/" class="button"
+          >Read More</a
+        >
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bxl-java"></i>
+            <h4>Java Developement</h4>
+            <p>
+              I am a passionate Java Developer with a solid foundation in
+              software development.One of my key projects involved developing an
+              Employee Management System, where I utilized Core Java, Swing, AWT
+              and MySQL to create a comprehensive application for managing
+              employee data and generating reports.This project allowed me to
+              enhance my skills in object-oriented programming, database
+              integration, and user interface design.I am eager to apply my
+              knowledge to real-world challenges and contribute effectively to a
+              development team.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bx-code"></i>
+            <h4>FrontEnd Developement</h4>
+            <p>
+              I am an enthusiastic front-end developer with a passion for
+              creating visually appealing and user-friendly web applications.One
+              of my notable projects includes developing a Netflix clone, where
+              I recreated the streaming platform's interface using HTML and CSS.
+              This project allowed me to enhance my skills in responsive design,
+              layout techniques and cross-browser compatibility.I am eager to
+              bring my creativity and technical expertise to a dynamic team,
+              continually learning and contributing to the development of
+              cutting-edge web applications.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <i class='bx bx-terminal' ></i>
+            <h4>BackEnd Developement</h4>
+            <p>
+              I am an aspiring back-end developer with a keen interest in
+              building robust and efficient server-side applications. One of my
+              key projects involved creating a Currency Converter web
+              application using HTML, CSS, and JavaScript, integrated with an
+              external API for real-time currency conversion. This project
+              enabled me to deepen my understanding of API integration,
+              server-side logic, and data handling. I am excited to apply my
+              skills to new challenges and contribute to innovative back-end
+              solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+
+      <div class="project-box">
+        <div class="project-card">
+          <img src="Designer.jpeg" alt="Employee Management" />
+
+          <h3>Employee Management System Desktop App</h3>
+
+          <p>
+            The Employee Management System is a desktop application developed in
+            Java using Swing and AWT for the graphical user interface. It uses
+            MySQL as the database, connected via JDBC. The application allows
+            users to manage employee data effectively.
+          </p>
+
+          <div>
+            <a
+              href="https://github.com/MulayShreyas/Employee-Management-System"
+              class="button"
+            >
+              Review Project</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Designer1.jpeg" alt="Netflix image" />
+          <h3>Clone Of Netflix Web Application</h3>
+
+          <p>
+            The Netflix Clone project is a front-end web development exercise
+            aimed at replicating the visual and interactive aspects of the
+            popular streaming service, Netflix. This project focuses on using
+            HTML and CSS to create a responsive web page that mimics the UI and
+            UX of Netflix.
+          </p>
+
+          <div>
+            <a
+              href="https://github.com/MulayShreyas/NetflixClone"
+              class="button"
+            >
+              Review Project</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Designer2.jpeg" alt="Currency Converter" />
+
+          <h3>Currency Converter Web Application</h3>
+
+          <p>
+            The Currency Converter Web Application is a dynamic and
+            user-friendly tool designed to provide accurate and real-time
+            currency conversion. Developed using HTML, CSS, and JavaScript, this
+            application leverages a third-party API to fetch the latest exchange
+            rates and perform conversions.
+          </p>
+
+          <div>
+            <a
+              href="https://github.com/MulayShreyas/Currency-Converter"
+              class="button"
+            >
+              Review Project</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" name = "Full Name" placeholder="Full Name" required />
+            <input type="email" name = "Email" placeholder="Email"  required/>
+          </div>
+          <div class="input-box">
+            <input type="number" name = "Number" placeholder="Mobile Number" required/>
+            <input type="text" name = "Text" placeholder="Subject" />
+          </div>
+        </div>
+        <div class="input-group2">
+          <textarea
+            name=""
+            id=""
+            placeholder= "Your Message"
+            cols="30"
+            rows="10" 
+          ></textarea>
+          <input type = "submit" value= "Message" class="button" />
+        </div>
+        <input type="hidden" name="access_key" value="3b325cec-6610-4401-ac08-45edc5d9642f"/>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social-media">
+        <a href="http://github.com/MulayShreyas">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mulayshreyas/">
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+        <a href="https://x.com/Mulay__Shreyas">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/mulay.shreyas/">
+          <i class="bx bxl-instagram-alt"></i>
+        </a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+
+        <li>
+          <a href="#services">Services</a>
+        </li>
+
+        <li>
+          <a href="#about">About Me</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <p class="copyright">&copy; 2024 Shreyas Mulay. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
