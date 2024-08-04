@@ -47,7 +47,7 @@ Welcome to my Portfolio repository! This repository showcases my projects, skill
 
   **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, ReactJS, CSS.
   
-  **Tools and Platforms**: Git, GitHub, Microsoft Azure, VS Code, PyCharm, IntelliJ Idea
+  **Tools and Platforms**: Git, GitHub, Microsoft Azure, VS Code, PyCharm, IntelliJ Idea.
 
 
 ## Contact
