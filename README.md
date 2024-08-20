@@ -14,7 +14,7 @@ Welcome to my Portfolio repository! This repository showcases my projects, skill
 
   **Description**: The Employee Management System is a desktop application developed in Java using Swing and AWT for the graphical user interface. It uses MySQL as the database, connected via JDBC. The application allows users to manage employee data effectively.
   
-  **Technologies Used**: Java, Java Swing, Java AWT, MySQL
+  **Technologies Used**: Java, Java Swing, Java AWT, MySQL, JDBC
   
   **Source Code**: https://github.com/MulayShreyas/Employee-Management-System
 
